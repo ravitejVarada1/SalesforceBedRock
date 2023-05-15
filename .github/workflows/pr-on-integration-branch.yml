@@ -4,7 +4,7 @@ name: Validate PR on integration branch
 # Definition when the workflow should run
 on:
     pull_request:
-      # This workflow will run when a pull request is opened, or when a commit is pushed
+      # This workflow will run when a pull request is opened, or ,,when a commit is pushed
       # to a branch that has an existing pull request
       types: [opened, synchronize]
       branches: [ main ]
